@@ -109,7 +109,7 @@ function App() {
         <Projects projects={PROJECTS} />
       </Section>
       <Section styles={"bg-gray-200 px-6"}>
-        <SectionHeader label={"Background"} color={COLORS.black} />
+        <SectionHeader label={"Experience"} color={COLORS.black} />
         <Background background={BACKGROUND} />
       </Section>
       <Section styles={"bg-gray-700 px-6"}>
