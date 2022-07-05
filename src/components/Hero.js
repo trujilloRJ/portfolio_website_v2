@@ -7,6 +7,7 @@ export default function Hero() {
       <div className="flex flex-col items-left">
         <img
           src={process.env.PUBLIC_URL + "/trujillo.jpg"}
+          // src={process.env.PUBLIC_URL + "/foto_02.jpeg"}
           alt="..."
           class="shadow-lg rounded-lg w-40 h-40 align-middle border-none object-cover md:block hidden"
         />
@@ -23,7 +24,7 @@ export default function Hero() {
           of my projects and information about my skills and background
           experience.
         </div>
-        <div className="md:text-lg md:text-left mt-3 text-center">
+        <div className="md:text-lg md:text-left mt-3 text-center hidden md:block">
           Right now, I'm finishing a P.hD. in Radar and Remote Sensing at
           Sapienza University of Rome and looking forward to new and exciting
           challenges.

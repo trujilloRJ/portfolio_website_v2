@@ -1,4 +1,6 @@
 import React from "react";
+import Background from "./components/Background";
+import ContactMe from "./components/ContactMe";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Section from "./components/Section";
@@ -32,7 +34,7 @@ const PROJECTS = [
   },
   {
     name: "👾 Corona Stats",
-    desc: "An dashboard-like website that provides statistic about the world COVID-19 pandemic situation. With daily updates, the website allows to quickly access to your country data using IP recognition as well as comparison between multiple countries.",
+    desc: "A dashboard-like website that provides statistics about the world COVID-19 pandemic situation. With daily updates, the website allows quick access to your country's data using IP recognition as well as a comparison between multiple countries.",
     languages: [
       {
         name: "python",
@@ -56,7 +58,7 @@ const PROJECTS = [
   },
   {
     name: "🍔 Cambrer",
-    desc: "A web application designed to facilitates a restaurant daily operations. Focus on the Argentinian market, it includes many features as digital menu accesible by QR, table monitoring, and order status. The code cannot be shared due to legal issues.",
+    desc: "A web application designed to facilitate a restaurant's daily operations. Focused on the Argentinian market, it includes many features such as a digital menu accessible by QR scansion, table monitoring, and order status. The code cannot be shared due to legal issues.",
     languages: [
       {
         name: "js",
@@ -72,6 +74,30 @@ const PROJECTS = [
   },
 ];
 
+const BACKGROUND = [
+  {
+    time: "November 2019 - Present",
+    title: "Ph.D. in Radar & Remote Sensing",
+    location: "Sapienza University of Rome, Rome, Italy",
+    description:
+      "The research is focused on the study and efficient implementation of advanced passive radar signal processing algorithms.",
+  },
+  {
+    time: "January 2019 - November 2019",
+    title: "Data Scientist",
+    location: "Telefonica Argentina, Buenos Aires, Argentina",
+    description:
+      "Resort in marketing analytics and machine learning tools to perform customer segmentation. Development of predictive models to reduce customer churn.",
+  },
+  {
+    time: "August 2015 - December 2018",
+    title: "B.Sc Telecommunications Engineering",
+    location: "Balseiro Institute, Bariloche, Argentina",
+    description:
+      "A renowned Argentinian science institute that grants full scholarships to all its students and requires taking a competitive admission exam.",
+  },
+];
+
 function App() {
   return (
     <div>
@@ -84,6 +110,10 @@ function App() {
       </Section>
       <Section styles={"bg-gray-200 px-6"}>
         <SectionHeader label={"Background"} color={COLORS.black} />
+        <Background background={BACKGROUND} />
+      </Section>
+      <Section styles={"bg-gray-700 px-6"}>
+        <ContactMe />
       </Section>
     </div>
   );
