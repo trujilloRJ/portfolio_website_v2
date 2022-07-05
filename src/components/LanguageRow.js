@@ -16,7 +16,7 @@ export default function LanguageRow({ language }) {
         class="w-8 h-8"
       />
       <div className="h-8 border-l-2 border-l-gray-400"></div>
-      <div className="flex space-x-2">
+      <div className="flex flex-wrap space-x-2">
         {language.libraries.map((libr) => (
           <Badge label={libr} />
         ))}
