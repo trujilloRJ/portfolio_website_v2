@@ -28,7 +28,7 @@ const PROJECTS = [
       },
       {
         type: "website",
-        url: "http://movie-recommender-v2.herokuapp.com/",
+        url: "https://movie-recommender-jt.netlify.app/",
       },
     ],
   },
