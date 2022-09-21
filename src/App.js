@@ -10,7 +10,7 @@ import { COLORS } from "./utils/constants";
 const PROJECTS = [
   {
     name: "📡 FMCW radar target classification",
-    desc: "A CNN that classifies FMCW radar targets based on the surrounding cells of the range-Doppler map. Several networks architectures were tested with special attention to model size and number of parameters.",
+    desc: "A CNN that classifies FMCW radar targets based on the surrounding cells of the range-Doppler map. Several network architectures were tested with special attention to model size and number of parameters to endure a lightweight solution.",
     languages: [
       {
         name: "python",
