@@ -9,6 +9,26 @@ import { COLORS } from "./utils/constants";
 
 const PROJECTS = [
   {
+    name: "📡 FMCW radar target classification",
+    desc: "A CNN that classifies FMCW radar targets based on the surrounding cells of the range-Doppler map. Several networks architectures were tested with special attention to model size and number of parameters.",
+    languages: [
+      {
+        name: "python",
+        libraries: ["pytorch", "pandas", "numpy"],
+      },
+    ],
+    links: [
+      {
+        type: "github",
+        url: "https://github.com/trujilloRJ/fmcw_radar_cnn",
+      },
+      {
+        type: "blog",
+        url: "https://blogmljt.netlify.app/posts/radar-doppler/",
+      },
+    ],
+  },
+  {
     name: "🎥 Movie Recommender",
     desc: "A content-based recommendation system for movies. It uses the movie genre, synopsis and casting to recommend similar movies by resorting on word vector models. The database contains around 10K movies produced after 1970 for the user to select.",
     languages: [

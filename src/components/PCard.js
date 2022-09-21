@@ -15,7 +15,7 @@ export default function PCard({ name, desc, languages, links }) {
         style="background-image: url('/img/card-left.jpg')"
         title="Woman holding a mug"
       ></div> */}
-      <div className="flex flex-col justify-between leading-normal">
+      <div className="flex flex-col h-full justify-between leading-normal">
         <div className="p-4">
           <div className="text-gray-900 font-bold text-xl mb-2">{name}</div>
           <p className="text-gray-700 text-base">{desc}</p>

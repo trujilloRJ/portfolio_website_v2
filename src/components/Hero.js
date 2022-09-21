@@ -1,5 +1,6 @@
 import React from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaBlogger } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -29,16 +30,25 @@ export default function Hero() {
           Sapienza University of Rome and looking forward to new and exciting
           challenges.
         </div>
-        <div className="flex space-x-6 items-center mt-8 md:justify-start justify-center">
-          <a href="https://github.com/trujilloRJ" target="#">
-            <BsGithub size={32} className="text-slate-700" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/javier-trujillo-rodriguez/"
-            target="#"
-          >
-            <BsLinkedin size={32} className="text-slate-700" />
-          </a>
+        {/* TODO: add blog link */}
+        <div className="mt-8 flex">
+          {/* <div className="flex space-x-2 items-center">
+            <a href="https://blogmljt.netlify.app/" target="#">
+              <FaBlogger size={32} className="text-slate-700" />
+            </a>
+            <span>Blog</span>
+          </div> */}
+          <div className="flex space-x-6 items-center md:justify-start justify-center">
+            <a href="https://github.com/trujilloRJ" target="#">
+              <BsGithub size={32} className="text-slate-700" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/javier-trujillo-rodriguez/"
+              target="#"
+            >
+              <BsLinkedin size={32} className="text-slate-700" />
+            </a>
+          </div>
         </div>
       </div>
     </div>

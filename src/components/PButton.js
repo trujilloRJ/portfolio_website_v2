@@ -1,6 +1,7 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { TbWorld } from "react-icons/tb";
+import { FaBlogger } from "react-icons/fa";
 
 const linkColor = {
   github: {
@@ -16,6 +17,13 @@ const linkColor = {
     hoverClassname: "hover:bg-green-500",
     borderColor: "border-green-700",
     icon: <TbWorld size={20} />,
+  },
+  blog: {
+    bgcolor: "bg-orange-300",
+    color: "#333",
+    hoverClassname: "hover:bg-orange-400",
+    borderColor: "border-orange-700",
+    icon: <FaBlogger size={20} />,
   },
 };
 

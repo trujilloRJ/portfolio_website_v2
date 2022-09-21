@@ -37,6 +37,10 @@ const BADGES = {
     bg_color: "#111",
     color: "#fff",
   },
+  pytorch: {
+    bg_color: "#DE3412",
+    color: "#fff",
+  },
 };
 
 function Badge({ label }) {
