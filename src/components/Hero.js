@@ -38,15 +38,27 @@ export default function Hero() {
             </a>
             <span>Blog</span>
           </div> */}
-          <div className="flex space-x-6 items-center md:justify-start justify-center">
+          <div className="flex space-x-6 w-full items-center justify-center">
             <a href="https://github.com/trujilloRJ" target="#">
-              <BsGithub size={32} className="text-slate-700" />
+              <div className="flex items-center bg-gray-800 rounded-full">
+                <BsGithub size={32} className="text-white" />
+                <div className="py-1 px-3 text-white text-sm">github</div>
+              </div>
             </a>
             <a
               href="https://www.linkedin.com/in/javier-trujillo-rodriguez/"
               target="#"
             >
-              <BsLinkedin size={32} className="text-slate-700" />
+              <div className="flex items-center bg-[#0A66C2] rounded-full">
+                <BsLinkedin size={32} color="#fff" />
+                <div className="py-1 px-3 text-white text-sm">linkedin</div>
+              </div>
+            </a>
+            <a href="https://blogjtr.com/" target="#">
+              <div className="flex items-center bg-green-600 rounded-md">
+                <FaBlogger size={32} className="text-white" />
+                <div className="px-3 text-white text-sm">blog</div>
+              </div>
             </a>
           </div>
         </div>
