@@ -14,8 +14,8 @@ export default function ContactMe() {
   return (
     <div className="flex flex-col md:flex-row md:space-x-2 space-y-4 md:space-y-0 items-center md:justify-between">
       <div className="flex space-x-4 items-center">
-        <GrMail size={32} className="text-white" />
-        <p className="text-white">trujillorodriguezjavier@gmail.com</p>
+        <GrMail size={32} className="" />
+        <p className="">trujillorodriguezjavier@gmail.com</p>
       </div>
       <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-4">
         <ButtonLink link="https://github.com/trujilloRJ">

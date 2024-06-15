@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Section from "./components/Section";
 import SectionHeader from "./components/SectionHeader";
 import { COLORS } from "./utils/constants";
+import Publications from "./components/Publications";
 
 const PROJECTS = [
   {
@@ -125,6 +126,52 @@ const BACKGROUND = [
   },
 ];
 
+const PUBLICATIONS = [
+  {
+    title: "Supervised reciprocal filter for OFDM radar signal processing",
+    authors: "J. Trujillo Rodriguez, F. Colone, P. Lombardo",
+    publisher:
+      "IEEE Transactions on Aerospace and Electronic Systems 59 (4), 3871-3889",
+    link: "https://ieeexplore.ieee.org/abstract/document/10021612",
+  },
+  {
+    title:
+      "Loaded reciprocal filter for OFDM-based passive radar signal processing",
+    authors: "J. Trujillo Rodriguez, F. Colone, P. Lombardo",
+    publisher: "2022 IEEE Radar Conference (RadarConf22), 1-6",
+    link: "https://ieeexplore.ieee.org/abstract/document/9764355",
+  },
+  {
+    title:
+      "Exploiting the Properties of Reciprocal Filter in Low-Complexity OFDM Radar Signal Processing Architectures",
+    authors: "J. Trujillo Rodriguez, G. P. Blasone, F. Colone, P. Lombardo",
+    publisher:
+      "IEEE Transactions on Aerospace and Electronic Systems 59 (5) 6907-6922",
+    link: "https://ieeexplore.ieee.org/document/10145593",
+  },
+  {
+    title:
+      "A simple clutter suppression approach for OFDM-based passive radar exploiting reciprocal filter",
+    authors: "J. Trujillo Rodriguez, G. P. Blasone, F. Colone, P. Lombardo",
+    publisher: "IET Digital Library",
+    link: "https://digital-library.theiet.org/content/conferences/10.1049/icp.2023.1294",
+  },
+  {
+    title:
+      "Experimental evaluation of Supervised Reciprocal Filter Strategies for OFDM-radar signal processing",
+    authors: "J. Trujillo Rodriguez, F. Colone, P. Lombardo",
+    publisher: "2023 IEEE Radar Conference (RadarConf23), 1-6",
+    link: "https://ieeexplore.ieee.org/abstract/document/10149791",
+  },
+  {
+    title:
+      "Performance Prediction of the Loaded Reciprocal Filter for OFDM-based Passive Radar",
+    authors: "J. Trujillo Rodriguez, F. Colone, P. Lombardo",
+    publisher: "2022 19th European Radar Conference (EuRAD), 1-4",
+    link: "https://ieeexplore.ieee.org/abstract/document/9924890",
+  },
+];
+
 function App() {
   return (
     <div>
@@ -140,6 +187,10 @@ function App() {
         <Background background={BACKGROUND} />
       </Section>
       <Section styles={"bg-gray-700 px-6"}>
+        <SectionHeader label={"Publications"} color={COLORS.white100} />
+        <Publications publications={PUBLICATIONS} />
+      </Section>
+      <Section styles={"bg-gray-200 px-6"}>
         <ContactMe />
       </Section>
     </div>
