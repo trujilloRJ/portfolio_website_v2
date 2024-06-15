@@ -96,7 +96,14 @@ const PROJECTS = [
 
 const BACKGROUND = [
   {
-    time: "November 2019 - Present",
+    time: "April 2023 - Present",
+    title: "Radar Feature Developer - Tracking",
+    location: "Magna Electronics GmbH, Munich, Germany",
+    description:
+      "Design and evaluation of algorithms for tracking extended targets in automotive applications. Assessment of multiple filters and measurement models for improved performance with minimal computational cost. Full collaboration with the signal processing team to improve detection quality and overall performance.",
+  },
+  {
+    time: "November 2019 - March 2023",
     title: "Ph.D. in Radar & Remote Sensing",
     location: "Sapienza University of Rome, Rome, Italy",
     description:

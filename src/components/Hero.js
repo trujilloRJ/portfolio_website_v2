@@ -16,29 +16,26 @@ export default function Hero() {
           Javier Trujillo
         </div>
         <div className="text-gray-700 text-center md:text-left">
-          Ph.D. Student
+          PhD Radar and Remote Sensing
         </div>
       </div>
-      <div className="flex flex-col justify-center mt-8 md:mt-0">
-        <div className="md:text-lg md:text-left text-center">
-          Hi! Welcome to my portfolio website. Here, you can find a collection
-          of my projects and information about my skills and background
-          experience.
+      <div className="flex flex-col justify-between mt-8 ml-8 md:mt-0">
+        <div>
+          <div className="font-bold md:text-lg mt-3 text-center md:text-left text-2xl">
+            Welcome to my portfolio website
+          </div>
+          <div className="md:text-lg md:text-left text-center">
+            A collection of my personal projects and information about my skills
+            and background experience.
+          </div>
         </div>
-        <div className="md:text-lg md:text-left mt-3 text-center hidden md:block">
+        {/* <div className="md:text-lg md:text-left mt-3 text-center hidden md:block">
           Right now, I'm finishing a P.hD. in Radar and Remote Sensing at
           Sapienza University of Rome and looking forward to new and exciting
           challenges.
-        </div>
-        {/* TODO: add blog link */}
-        <div className="mt-8 flex">
-          {/* <div className="flex space-x-2 items-center">
-            <a href="https://blogmljt.netlify.app/" target="#">
-              <FaBlogger size={32} className="text-slate-700" />
-            </a>
-            <span>Blog</span>
-          </div> */}
-          <div className="flex space-x-6 w-full items-center justify-center">
+        </div> */}
+        <div className="mt-8 mb-9 flex">
+          <div className="flex space-x-6 w-full items-center">
             <a href="https://github.com/trujilloRJ" target="#">
               <div className="flex items-center bg-gray-800 rounded-full">
                 <BsGithub size={32} className="text-white" />
