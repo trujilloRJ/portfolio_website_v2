@@ -41,6 +41,14 @@ const BADGES = {
     bg_color: "#DE3412",
     color: "#fff",
   },
+  matplotlib: {
+    bg_color: "#FFD43B",
+    color: "#333",
+  },
+  scipy: {
+    bg_color: "#306998",
+    color: "#fff",
+  },
 };
 
 function Badge({ label }) {

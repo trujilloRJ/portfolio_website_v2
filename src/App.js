@@ -10,6 +10,26 @@ import Publications from "./components/Publications";
 
 const PROJECTS = [
   {
+    name: "🚀 Choosing the right filter for nonlinear state estimation: EKF vs. UKF",
+    desc: "Design and implementation of Extended and Unscented Kalman Filters in Python using numpy and scipy. Experiment to evaluate their performance and scope.",
+    languages: [
+      {
+        name: "python",
+        libraries: ["numpy", "matplotlib", "scipy"],
+      },
+    ],
+    links: [
+      {
+        type: "github",
+        url: "https://github.com/trujilloRJ/kf_sandbox",
+      },
+      {
+        type: "blog",
+        url: "https://blogjtr.com/posts/ekf-vs-ukf/",
+      },
+    ],
+  },
+  {
     name: "📡 FMCW radar target classification",
     desc: "A CNN that classifies FMCW radar targets based on the surrounding cells of the range-Doppler map. Several network architectures were tested with special attention to model size and number of parameters to provide a lightweight solution.",
     languages: [
@@ -77,22 +97,22 @@ const PROJECTS = [
       },
     ],
   },
-  {
-    name: "🍔 Cambrer",
-    desc: "A web application designed to facilitate a restaurant's daily operations. Focused on the Argentinian market, it includes many features such as a digital menu accessible by QR scansion, table monitoring, and order status. The code cannot be shared due to legal issues.",
-    languages: [
-      {
-        name: "js",
-        libraries: ["angular", "node"],
-      },
-    ],
-    links: [
-      {
-        type: "website",
-        url: "https://hola.cambrer.com.ar/home",
-      },
-    ],
-  },
+  // {
+  //   name: "🍔 Cambrer",
+  //   desc: "A web application designed to facilitate a restaurant's daily operations. Focused on the Argentinian market, it includes many features such as a digital menu accessible by QR scansion, table monitoring, and order status. The code cannot be shared due to legal issues.",
+  //   languages: [
+  //     {
+  //       name: "js",
+  //       libraries: ["angular", "node"],
+  //     },
+  //   ],
+  //   links: [
+  //     {
+  //       type: "website",
+  //       url: "https://hola.cambrer.com.ar/home",
+  //     },
+  //   ],
+  // },
 ];
 
 const BACKGROUND = [
