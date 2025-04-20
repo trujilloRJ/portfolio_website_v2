@@ -49,6 +49,10 @@ const BADGES = {
     bg_color: "#306998",
     color: "#fff",
   },
+  open_cv: {
+    bg_color: "#d5001f",
+    color: "#fff",
+  },
 };
 
 function Badge({ label }) {

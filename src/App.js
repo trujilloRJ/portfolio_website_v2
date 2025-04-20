@@ -10,6 +10,26 @@ import Publications from "./components/Publications";
 
 const PROJECTS = [
   {
+    name: "🤖 Camera-based object tracking: An implementation of SORT algorithm",
+    desc: "A SORT-based object tracking framework for monocular camera sensors in an automotive environment. Tested against KITTI benchmark.",
+    languages: [
+      {
+        name: "python",
+        libraries: ["open_cv", "numpy", "scipy"],
+      },
+    ],
+    links: [
+      {
+        type: "github",
+        url: "https://github.com/trujilloRJ/sort_based_object_tracking",
+      },
+      {
+        type: "blog",
+        url: "https://blogjtr.com/posts/object-tracking-sort/",
+      },
+    ],
+  },
+  {
     name: "🚀 Choosing the right filter for nonlinear state estimation: EKF vs. UKF",
     desc: "Design and implementation of Extended and Unscented Kalman Filters in Python using numpy and scipy. Experiment to evaluate their performance and scope.",
     languages: [
@@ -49,30 +69,30 @@ const PROJECTS = [
       },
     ],
   },
-  {
-    name: "🎥 Movie Recommender",
-    desc: "A content-based recommendation system for movies. It uses the movie genre, synopsis and casting to recommend similar movies by resorting on word vector models. The database contains around 10K movies produced after 1970 for the user to select.",
-    languages: [
-      {
-        name: "python",
-        libraries: ["scikit_learn", "pandas", "numpy", "flask"],
-      },
-      {
-        name: "js",
-        libraries: ["react"],
-      },
-    ],
-    links: [
-      {
-        type: "github",
-        url: "https://github.com/trujilloRJ/movie-recommender",
-      },
-      {
-        type: "website",
-        url: "https://movie-recommender-jt.netlify.app/",
-      },
-    ],
-  },
+  // {
+  //   name: "🎥 Movie Recommender",
+  //   desc: "A content-based recommendation system for movies. It uses the movie genre, synopsis and casting to recommend similar movies by resorting on word vector models. The database contains around 10K movies produced after 1970 for the user to select.",
+  //   languages: [
+  //     {
+  //       name: "python",
+  //       libraries: ["scikit_learn", "pandas", "numpy", "flask"],
+  //     },
+  //     {
+  //       name: "js",
+  //       libraries: ["react"],
+  //     },
+  //   ],
+  //   links: [
+  //     {
+  //       type: "github",
+  //       url: "https://github.com/trujilloRJ/movie-recommender",
+  //     },
+  //     {
+  //       type: "website",
+  //       url: "https://movie-recommender-jt.netlify.app/",
+  //     },
+  //   ],
+  // },
   {
     name: "👾 Corona Stats",
     desc: "A dashboard-like website that provides statistics about the world COVID-19 pandemic situation. With daily updates, the website allows quick access to your country's data using IP recognition as well as a comparison between multiple countries.",

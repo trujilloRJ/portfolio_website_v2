@@ -10,11 +10,6 @@ export default function PCard({ name, desc, languages, links }) {
       className="rounded-md shadow-lg"
       style={{ backgroundColor: COLORS.white }}
     >
-      {/* <div
-        class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-        style="background-image: url('/img/card-left.jpg')"
-        title="Woman holding a mug"
-      ></div> */}
       <div className="flex flex-col h-full justify-between leading-normal">
         <div className="p-4">
           <div className="text-gray-900 font-bold text-xl mb-2">{name}</div>
